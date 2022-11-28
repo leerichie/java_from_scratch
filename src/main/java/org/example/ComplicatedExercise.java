@@ -1,8 +1,7 @@
 package org.example;
 
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -39,5 +38,12 @@ public class ComplicatedExercise {
          * zadanie: wypisz wszystkie samochody, bez duplikatów, posortowane po długości nazwy,
          * a następnie alfabetycznie (porządek leksykalny, thenComparing)
          */
+        List<String> removeDuplicates = people.stream()
+                .map(Person::getCars)
+                .map(o -> o.orElse(List.of()))
+                .flatMap(Cars -> Cars.stream())
+                .distinct()
+                .toList();
+        System.out.println(removeDuplicates);
     }
 }

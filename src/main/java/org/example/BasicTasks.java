@@ -266,5 +266,9 @@ public class BasicTasks {
             }
         }
         System.out.println("\nGot 100: " + sum);
+
+        System.out.println();
+
+
     }
 }

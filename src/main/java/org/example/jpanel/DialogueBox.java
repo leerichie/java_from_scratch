@@ -1,4 +1,4 @@
-package org.example.dialoguebox;
+package org.example.jpanel;
 
 import javax.swing.*;
 

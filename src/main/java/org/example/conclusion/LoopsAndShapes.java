@@ -1,5 +1,7 @@
 package org.example.conclusion;
 
+import java.util.Scanner;
+
 public class LoopsAndShapes {
     public static void main(String[] args) {
 
@@ -21,10 +23,40 @@ public class LoopsAndShapes {
 
         rhombusLeft();
 
+        square();
+
+    }
+
+    static int scanner() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter size:");
+        int size = input.nextInt();
+        return size;
+    }
+
+    static void square() {
+        int size = scanner();
+        String topBottomRow = "";
+        for (int i = 0; i < size; i++) {
+            topBottomRow += "* ";
+        }
+        String middleRows = "";
+        for (int i = 0; i < size - 2; i++) {
+            String row = "*";
+
+            for (int j = 0; j < size - 2; j++) {    // add SPACE to rows
+                row += "  ";
+            }
+            row += " *\n";  // alignment
+            middleRows += row;
+        }
+        System.out.println(topBottomRow);
+        System.out.println(middleRows);
+        System.out.println(topBottomRow);
     }
 
     private static void rhombusLeft() {
-        for (int i=1; i<=7; i++) {
+        for (int i = 1; i <= 7; i++) {
             for (int j = 1; j <= i - 1; j++) {
                 System.out.format("%2s", "");
             }
@@ -47,11 +79,11 @@ public class LoopsAndShapes {
     }
 
     private static void leftTriangle() {
-        for (int i=1; i<=10; i++){
-            for (int j=1; j<=10 -i; j++){
+        for (int i = 1; i <= 10; i++) {
+            for (int j = 1; j <= 10 - i; j++) {
                 System.out.format("%2s", "");
             }
-            for (int k=1; k<=i; k++){
+            for (int k = 1; k <= i; k++) {
                 System.out.format("%2s", "*");
             }
             System.out.println();
@@ -78,12 +110,13 @@ public class LoopsAndShapes {
         }
         System.out.println();
     }
+
     private static void leftTriInverted() {
-        for(int i = 10; i >= 1; --i) {
+        for (int i = 10; i >= 1; --i) {
             for (int space = 1; space <= 10 - i; ++space) {
                 System.out.print("  ");
             }
-            for(int j=i; j <= 2 * i - 1; ++j) {
+            for (int j = i; j <= 2 * i - 1; ++j) {
                 System.out.print("* ");
             }
             System.out.println();
@@ -91,8 +124,8 @@ public class LoopsAndShapes {
     }
 
     private static void leftTriangleEdge() {
-        for (int i=1; i<=10; i++){
-            for (int j=1; j<=10 - i; j++){
+        for (int i = 1; i <= 10; i++) {
+            for (int j = 1; j <= 10 - i; j++) {
                 System.out.format("%2s", "");
             }
             System.out.println("*");

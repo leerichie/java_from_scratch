@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conclusion/Pesel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conclusion/SMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jpanel/SquareGraphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/car/CarApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/EmployeeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BasicTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/conclusion/BasicTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/conclusion/LoopsAndShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/conclusion/LoopsAndShapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dialoguebox/DialogueBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpanel/DialogueBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +63,48 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquareGraphics">
-    <configuration name="LoopsAndShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.conclusion.LoopsAndShapes" />
+  <component name="RunManager" selected="Application.EmployeeApp">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.calculator.Calculator" />
+      <module name="java_from_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.car.CarApp" />
+      <module name="java_from_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.car.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_challenges.EmployeeApp" />
+      <module name="java_from_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.linkedIn_challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PracticeClass" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
@@ -73,51 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pesel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.conclusion.Pesel" />
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.stack.Stack" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.conclusion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.conclusion.Reducer" />
-      <module name="java_from_scratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.conclusion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SMS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.conclusion.SMS" />
-      <module name="java_from_scratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.conclusion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareGraphics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jpanel.SquareGraphics" />
-      <module name="java_from_scratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.jpanel.*" />
+          <option name="PATTERN" value="org.example.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SquareGraphics" />
-        <item itemvalue="Application.LoopsAndShapes" />
-        <item itemvalue="Application.Pesel" />
-        <item itemvalue="Application.SMS" />
-        <item itemvalue="Application.TestReducer" />
+        <item itemvalue="Application.EmployeeApp" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Stack" />
+        <item itemvalue="Application.CarApp" />
+        <item itemvalue="Application.PracticeClass" />
       </list>
     </recent_temporary>
   </component>

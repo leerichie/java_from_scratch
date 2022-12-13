@@ -51,7 +51,7 @@ public class LoopsAndShapes {
             middleRows += row;
         }
         System.out.println(topBottomRow);
-        System.out.println(middleRows);
+        System.out.print(middleRows);   // print without blank line
         System.out.println(topBottomRow);
     }
 

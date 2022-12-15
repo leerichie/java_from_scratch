@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/car/CarApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/EmployeeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/abstraction/AbstractFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/abstraction/DigitsOnlyFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/abstraction/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/encapsulation/Banking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/encapsulation/BankingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/LanguageProgramming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/LanguageSpoken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/Nationality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/message.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BasicTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/conclusion/BasicTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/conclusion/LoopsAndShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/conclusion/LoopsAndShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/StackMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -55,34 +64,26 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/abstraction" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.linkedIn_challenges.encapsulation" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeApp">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.calculator.Calculator" />
+  <component name="RunManager" selected="Application.org.example.linkedIn_challenges.abstraction.MainApp">
+    <configuration name="BankingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_challenges.encapsulation.BankingApp" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.car.CarApp" />
-      <module name="java_from_scratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.car.*" />
+          <option name="PATTERN" value="org.example.linkedIn_challenges.encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,7 +96,7 @@
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_challenges.*" />
+          <option name="PATTERN" value="org.example.linkedIn_challenges.encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PracticeClass" />
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_challenges.inheritance.MainApp" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.conclusion.*" />
+          <option name="PATTERN" value="org.example.linkedIn_challenges.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.stack.Stack" />
+    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.stack.StackMain" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
@@ -129,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.linkedIn_challenges.abstraction.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_challenges.abstraction.MainApp" />
+      <module name="java_from_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.linkedIn_challenges.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.linkedIn_challenges.abstraction.MainApp" />
+        <item itemvalue="Application.StackMain" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.BankingApp" />
         <item itemvalue="Application.EmployeeApp" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Stack" />
-        <item itemvalue="Application.CarApp" />
-        <item itemvalue="Application.PracticeClass" />
       </list>
     </recent_temporary>
   </component>

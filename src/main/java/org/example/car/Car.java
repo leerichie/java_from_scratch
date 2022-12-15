@@ -7,6 +7,17 @@ public class Car {
     private boolean used = false;
     private int mileage = 0;
 
+    public Car() {
+    }
+
+    public Car(String model, int productionYear, String colour, boolean used, int mileage) {
+        this.model = model;
+        this.productionYear = productionYear;
+        this.colour = colour;
+        this.used = used;
+        this.mileage = mileage;
+    }
+
     int drive(int mileage){
         if (mileage > 0){
             used = true;

@@ -10,13 +10,13 @@ public class Varargs {
     }
 
     public static void main(String[] args) {
-        String item1 = "apple";
-        String item2 = "banana";
-        String item3 = "pear";
+//        String item1 = "apple";
+//        String item2 = "banana";
+//        String item3 = "pear";
 //        String [] shopping = {"Bread", "Milk", "Eggs", "Butter"};
-        System.out.println(item1);
+//        System.out.println(item1);
 //        printShoppingList(shopping);
-        printShoppingList("Bread", "Milk", "Eggs", "Butter");
+        printShoppingList("Bread", "Milk", "Eggs", "Butter", "Tomatoes");
 
     }
 }

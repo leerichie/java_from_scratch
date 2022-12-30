@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/linked_list/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/linked_list/queue/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/linked_list/queue/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/generics/varargs/Varargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/generics/varargs/Varargs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Varargs">
+  <component name="RunManager" selected="Application.Store">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.calculator.Calculator" />
       <module name="SDA-advanced-tasks" />
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_challenges.inheritance_1.MainApp" />
-      <module name="java_from_scratch" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_challenges.linked_list.LinkedList" />
+      <module name="SDA-advanced-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_challenges.inheritance_1.*" />
+          <option name="PATTERN" value="org.example.linkedIn_challenges.linked_list.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitedNations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_challenges.oop_1.UnitedNations" />
-      <module name="java_from_scratch" />
+    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_challenges.linked_list.queue.Store" />
+      <module name="SDA-advanced-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_challenges.oop_1.*" />
+          <option name="PATTERN" value="org.example.linkedIn_challenges.linked_list.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Store" />
+        <item itemvalue="Application.LinkedLists" />
         <item itemvalue="Application.Varargs" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.GenericsExamples" />
-        <item itemvalue="Application.UnitedNations" />
-        <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>

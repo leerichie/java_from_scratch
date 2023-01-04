@@ -1,10 +1,12 @@
 package org.example.linkedIn_learning.multithreading.synchronisation;
 
+import java.util.Scanner;
+
 public class ATM {
 
     static synchronized void withdraw(BankAccount account, int amount){ // synchronized - controls access of multiple threads
         int balance = account.getBalance();
-        if ((balance - amount) < - account.getOverdraft()){
+        if ((balance - amount) < -account.getOverdraft()){
             System.out.println("Transaction denied");
         } else {
             account.debit(amount);
@@ -12,4 +14,5 @@ public class ATM {
         }
         System.out.println("Current balance " + account.getBalance());
     }
+
 }

@@ -5,60 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/SharpenYourPencilExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/booking_system/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/booking_system/Hairdresser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/booking_system/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/FarewellMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/GreetingMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/MessagePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/lambdas/LambdaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/hash_map/HMExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/linked_hash_map/LHMExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/method_references/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/method_references/Shapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/method_references/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/runnable_interface/MainRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/runnable_interface/RunnableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/threads/MainThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/threads/ThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/streams/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/streams/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileWriter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/BuffReadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/CreateDirAndFindWIthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/FileCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/PathClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/TryWIthResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/avoiding_deadlock/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/BalanceInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/EmployeeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/EmployeeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/abstraction/AbstractFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/abstraction/AbstractFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/abstraction/DigitsOnlyFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/abstraction/DigitsOnlyFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/abstraction/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/abstraction/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/encapsulation/Banking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/encapsulation/Banking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/encapsulation/BankingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/encapsulation/BankingApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/generics/GenericsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/generics/GenericsExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/generics/varargs/Varargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/generics/varargs/Varargs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/Programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/enums/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/LanguageProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/enums/LanguageProgramming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/LanguageSpoken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/enums/LanguageSpoken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/Nationality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/enums/Nationality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance/enums/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance/enums/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance_1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance_1/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/inheritance_1/Randomness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/inheritance_1/Randomness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/linked_list/LLExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/linked_list/queue/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/linked_list/LL_impl_Queue/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/linked_list/queue/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/linked_list/LL_impl_Queue/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/oop_1/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/oop_1/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/oop_1/England.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/oop_1/England.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/oop_1/Ireland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/oop_1/Ireland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/oop_1/Scotland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/oop_1/Scotland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/oop_1/UnitedNations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/oop_1/UnitedNations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/multithreading/synchronisation/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/message.txt" beforeDir="false" afterPath="$PROJECT_DIR$/message.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,28 +56,33 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HoWyJ0AwS9aLWkJNKHoBDvXmXy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ashley/IdeaProjects/java_from_scratch&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "/Users/ashley/IdeaProjects/java_from_scratch"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/linkedIn_challenges/abstraction" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -129,13 +95,13 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Users">
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.booking_system.Customer" />
+  <component name="RunManager" selected="Application.PathClass">
+    <configuration name="BuffReadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.input_output.BuffReadExample" />
       <module name="SDA-advanced-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.booking_system.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.input_output.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.streams.Library" />
+    <configuration name="CreateDirAndFindWIthFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.input_output.CreateDirAndFindWIthFilter" />
       <module name="SDA-advanced-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.streams.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.input_output.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.multithreading.runnable_interface.MainRunnable" />
+    <configuration name="FileCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.input_output.FileCreation" />
       <module name="SDA-advanced-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.multithreading.runnable_interface.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.input_output.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.multithreading.threads.MainThreads" />
+    <configuration name="PathClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.input_output.PathClass" />
       <module name="SDA-advanced-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.multithreading.threads.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.input_output.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Users" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.multithreading.synchronisation.Users" />
+    <configuration name="TryWIthResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.input_output.TryWIthResources" />
       <module name="SDA-advanced-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.multithreading.synchronisation.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.input_output.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Users" />
-        <item itemvalue="Application.MainRunnable" />
-        <item itemvalue="Application.MainThreads" />
-        <item itemvalue="Application.Customer" />
-        <item itemvalue="Application.Library" />
+        <item itemvalue="Application.PathClass" />
+        <item itemvalue="Application.CreateDirAndFindWIthFilter" />
+        <item itemvalue="Application.FileCreation" />
+        <item itemvalue="Application.TryWIthResources" />
+        <item itemvalue="Application.BuffReadExample" />
       </list>
     </recent_temporary>
   </component>
@@ -215,5 +181,8 @@
       <updated>1668952171844</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

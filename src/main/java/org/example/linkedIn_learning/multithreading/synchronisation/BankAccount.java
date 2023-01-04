@@ -1,11 +1,14 @@
 package org.example.linkedIn_learning.multithreading.synchronisation;
 
+import java.util.Scanner;
+
 public class BankAccount {
 
-    private int balance = 0;
-    private final int overdraft;
+    private int balance;
+    private int overdraft;
 
-    public BankAccount(int overdraft) {
+    public BankAccount(int balance, int overdraft) {
+        this.balance = balance;
         this.overdraft = overdraft;
     }
     void topUp(int amount){
@@ -20,5 +23,4 @@ public class BankAccount {
     int getOverdraft(){
         return overdraft;
     }
-
 }

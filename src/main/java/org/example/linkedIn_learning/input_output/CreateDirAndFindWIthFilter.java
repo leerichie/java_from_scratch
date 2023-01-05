@@ -15,7 +15,7 @@ public class CreateDirAndFindWIthFilter {
             for (String sFile : contents) {
                 System.out.println(sFile);
             }
-            new File("/Users/ashmacair/Desktop/MyDir2").mkdir();    // create dir at path
+            new File("/Users/ashmacair/Desktop/MyDir1").mkdir();    // create dir at path
         }
     }
 }

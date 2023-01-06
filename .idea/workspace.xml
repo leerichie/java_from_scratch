@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exampleCopiedContents.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/PathClassMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/lambdas_and_streams/lambdas/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/lambdas_and_streams/lambdas/HelloGreeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/lambdas_and_streams/lambdas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/lambdas_and_streams/streams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/pg18/PhraseOMatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/CreateDirAndFindWIthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/CreateDirAndFindWIthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/input_output/PathClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/course.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/pg15/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/SharpenYourPencilExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/pg15/SharpenYourPencilExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/lambdas_and_streams/streams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/lambdas_and_streams/streams/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,19 +56,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "/Users/ashmacair/IdeaProjects/java_from_scratch"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ashmacair/IdeaProjects/java_from_scratch&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -89,33 +88,7 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.linkedIn_learning.lambdas_and_streams.streams.Main">
-    <configuration name="CreateDirAndFindWIthFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.bethan_palmer.abstraction.input_output.CreateDirAndFindWIthFilter" />
-      <module name="SDA-advanced-tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.bethan_palmer.abstraction.input_output.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.bethan_palmer.abstraction.input_output.FileCreation" />
-      <module name="SDA-advanced-tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.bethan_palmer.abstraction.input_output.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PhraseOMatic">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.lambdas_and_streams.lambdas.Main" />
       <module name="SDA-advanced-tasks" />
@@ -142,6 +115,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhraseOMatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.head_first_java_3rd.pg18.PhraseOMatic" />
+      <module name="SDA-advanced-tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.head_first_java_3rd.pg18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PracticeClass" />
+      <module name="SDA-advanced-tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.linkedIn_learning.lambdas_and_streams.streams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.lambdas_and_streams.streams.Main" />
       <module name="SDA-advanced-tasks" />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhraseOMatic" />
+        <item itemvalue="Application.PracticeClass" />
         <item itemvalue="Application.org.example.linkedIn_learning.lambdas_and_streams.streams.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PathClassMethods" />
-        <item itemvalue="Application.CreateDirAndFindWIthFilter" />
-        <item itemvalue="Application.FileCreation" />
       </list>
     </recent_temporary>
   </component>

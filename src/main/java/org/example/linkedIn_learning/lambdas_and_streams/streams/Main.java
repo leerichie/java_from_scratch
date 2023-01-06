@@ -22,14 +22,17 @@ public class Main {
         shoppingList.add("pineapple");
         shoppingList.add("milk");
         shoppingList.add("pasta");
-//        Stream<String> shopListStream = shoppingList.stream();
-//        shopListStream.sorted().forEach(item -> System.out.println(item)); // OR simply
+
+        List<String> shopListStream =
+//        shopListStream.sorted().forEach(item -> System.out.println(item)); // OR
         shoppingList.stream().sorted()
                 .map(item -> item.toUpperCase())
                 .filter(item -> item.startsWith("B"))
-                .forEach(System.out::println);
+                .collect(Collectors.toList());
+        System.out.println(shopListStream);
 
         Stream<String> lettersStream = Stream.of("a", "b", "c");
+        System.out.println(lettersStream.toList());
 
     }
 }

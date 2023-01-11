@@ -42,5 +42,14 @@ public class CollectionsEx {
                         word -> word.length()    // OR method ref: String::length
                 ));
         System.out.println(wordLengthMap);
+
+        // partition By - Map<Key is Boolean>
+
+        Map<Boolean, List<String>> wordLengthMapMoreThanGivenNo = words
+                .stream()
+                .collect(Collectors.groupingBy(
+                        word -> word.length() == 4   // is string arg(longer/shorter/equal): true - false
+                ));
+        System.out.println(wordLengthMapMoreThanGivenNo);
     }
 }

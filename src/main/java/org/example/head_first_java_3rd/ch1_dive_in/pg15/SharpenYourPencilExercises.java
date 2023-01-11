@@ -1,6 +1,4 @@
-package org.example.head_first_java_3rd.pg15;
-
-import org.example.head_first_java_3rd.pg15.Dog;
+package org.example.head_first_java_3rd.ch1_dive_in.pg15;
 
 public class SharpenYourPencilExercises {
     public static void main(String[] args) {

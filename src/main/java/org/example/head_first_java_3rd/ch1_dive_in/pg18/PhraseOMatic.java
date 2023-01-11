@@ -1,4 +1,4 @@
-package org.example.head_first_java_3rd.pg18;
+package org.example.head_first_java_3rd.ch1_dive_in.pg18;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package org.example.head_first_java_3rd.pg15;
+package org.example.head_first_java_3rd.ch1_dive_in.pg15;
 
 public class Dog {
     int size;

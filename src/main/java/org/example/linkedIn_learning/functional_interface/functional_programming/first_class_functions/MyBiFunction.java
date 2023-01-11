@@ -20,6 +20,6 @@ public class MyBiFunction {
         System.out.println("Three arg function: " + threeArgs.apply(10,10,10));
 
         NoArgFunction<String> noArgFunc = () -> "say hello"; // no arg interface
-        System.out.println(noArgFunc.apply());
+        System.out.println(noArgFunc.apply());      // .apply()
     }
 }

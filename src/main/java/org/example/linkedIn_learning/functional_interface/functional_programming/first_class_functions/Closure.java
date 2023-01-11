@@ -10,7 +10,7 @@ public class Closure {
             return () -> "Hello, " + name;
         };
 
-        NoArgFunction<String> greeter = createGreeter.apply();
+        NoArgFunction<String> greeter = createGreeter.apply(); // .apply();
         System.out.println(greeter.apply());
     }
 }

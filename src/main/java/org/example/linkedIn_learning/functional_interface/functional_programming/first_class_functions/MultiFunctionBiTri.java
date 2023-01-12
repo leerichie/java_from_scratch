@@ -1,6 +1,6 @@
 package org.example.linkedIn_learning.functional_interface.functional_programming.first_class_functions;
 
-public class MyBiFunction {
+public class MultiFunctionBiTri {
     public static void main(String[] args) {
 
 //        BiFunction<Integer, Integer, Integer> twoArguments =

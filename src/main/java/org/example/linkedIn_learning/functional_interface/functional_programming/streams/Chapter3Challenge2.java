@@ -33,5 +33,21 @@ public class Chapter3Challenge2 {
         List<Employee> employees = new ArrayList<>(Arrays.asList(employeesArr));
 
         // Your answer goes here
+
+        Map<String, Float> avgSalaryMap = employees
+                .stream()
+                .collect(Collectors.groupingBy(
+                        (employee) -> employee.jobTitle
+                ))
+                .entrySet()
+                .stream()
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        (entry) -> entry.getValue()
+                                .stream()
+                                .map(employee -> employee.salary)
+                                .reduce(0f, Float::sum) / entry.getValue().size()
+                ));
+        System.out.println(avgSalaryMap);
     }
 }

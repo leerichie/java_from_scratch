@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/adv_concepts/CompositionInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/adv_concepts/CompositionString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/adv_concepts/PartialApplicationAndCurrying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/adv_concepts/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/ParallelStreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/CollectionsEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/CollectionsEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/first_class_functions/MyBiFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/first_class_functions/MultiFunctionBiTri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Filters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Filters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +102,13 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter3Challenge1">
-    <configuration name="Chapter3Challenge1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.Chapter3Challenge1" />
+  <component name="RunManager" selected="Application.CompositionString$Employee">
+    <configuration name="Chapter3Challenge2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.Chapter3Challenge2" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.Chapter3Challenge1" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.CollectionsEx" />
+    <configuration name="CompositionInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.CompositionInt" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Filters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.Filters" />
+    <configuration name="CompositionString$Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.CompositionString$Employee" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.Mapping" />
+    <configuration name="PartialApplicationAndCurrying" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.PartialApplicationAndCurrying" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.Reduce" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.Recursion" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.*" />
+          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Chapter3Challenge1" />
-        <item itemvalue="Application.CollectionsEx" />
-        <item itemvalue="Application.Filters" />
-        <item itemvalue="Application.Reduce" />
-        <item itemvalue="Application.Mapping" />
+        <item itemvalue="Application.CompositionString$Employee" />
+        <item itemvalue="Application.CompositionInt" />
+        <item itemvalue="Application.Recursion" />
+        <item itemvalue="Application.PartialApplicationAndCurrying" />
+        <item itemvalue="Application.Chapter3Challenge2" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668952171844</updated>
       <workItem from="1673260586698" duration="1412000" />
-      <workItem from="1673294320932" duration="29196000" />
+      <workItem from="1673294320932" duration="39206000" />
     </task>
     <servers />
   </component>

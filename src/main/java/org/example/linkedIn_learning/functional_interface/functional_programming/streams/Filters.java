@@ -44,5 +44,13 @@ public class Filters {
                 .toList();
         System.out.println("Words containing 'u': " + displayU);
 
+        String[] teams = {"LFC", "LFC", "Liverpool", "Arsenal", "Arsenal", "Spurs", "Man City", "Man U", "Villa"};
+
+        List<String> noDupes = Arrays.stream(teams)
+                .filter(s -> s.contains("l") && s.contains("r"))
+                .distinct()
+                .toList();
+        System.out.println(noDupes);
+
     }
 }

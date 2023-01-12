@@ -133,7 +133,7 @@ public class Chapter3Challenge1 {
                 .stream()
                 .map((employee) -> employee.salary)
                 .reduce(0f, Float::sum);
-//        .reduce(0f, getAllSalaries); // using BinaryOperator to show process
+//        .reduce(0f, getAllSalaries);      // using BinaryOperator to show process
         System.out.println("Sum of all salaries: " + sumOfSalaries);
 
 

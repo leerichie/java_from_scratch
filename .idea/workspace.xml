@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/adv_concepts/CompositionInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/adv_concepts/CompositionString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/adv_concepts/PartialApplicationAndCurrying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/adv_concepts/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/ParallelStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview_tests/coderbyte_sollers_consulting/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview_tests/coderbyte_sollers_consulting/RunLengthEncode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview_tests/coderbyte_sollers_consulting/TimeDiffMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview_tests/coderbyte_sollers_consulting/TimeDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/my_practice_classes/LfcMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/my_practice_classes/LiverpoolFC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/first_class_functions/MyBiFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/first_class_functions/MultiFunctionBiTri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Chapter3Challenge2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Filters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams/Filters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +99,13 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompositionString$Employee">
-    <configuration name="Chapter3Challenge2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.Chapter3Challenge2" />
+  <component name="RunManager" selected="Application.TimeDiffMe">
+    <configuration name="LfcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.my_practice_classes.LfcMain" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.streams.Chapter3Challenge1" />
+          <option name="PATTERN" value="org.example.interview_tests.coderbyte_sollers_consulting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositionInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.CompositionInt" />
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview_tests.coderbyte_sollers_consulting.MaxProfit" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.*" />
+          <option name="PATTERN" value="org.example.interview_tests.coderbyte_sollers_consulting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositionString$Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.CompositionString$Employee" />
+    <configuration name="RunLengthEncode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview_tests.coderbyte_sollers_consulting.RunLengthEncode" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.*" />
+          <option name="PATTERN" value="org.example.interview_tests.coderbyte_sollers_consulting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartialApplicationAndCurrying" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.PartialApplicationAndCurrying" />
+    <configuration name="TimeDiffMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview_tests.coderbyte_sollers_consulting.TimeDiffMe" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.*" />
+          <option name="PATTERN" value="org.example.interview_tests.coderbyte_sollers_consulting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.Recursion" />
+    <configuration name="TimeDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview_tests.coderbyte_sollers_consulting.TimeDifference" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedIn_learning.functional_interface.functional_programming.adv_concepts.*" />
+          <option name="PATTERN" value="org.example.interview_tests.coderbyte_sollers_consulting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompositionString$Employee" />
-        <item itemvalue="Application.CompositionInt" />
-        <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.PartialApplicationAndCurrying" />
-        <item itemvalue="Application.Chapter3Challenge2" />
+        <item itemvalue="Application.TimeDiffMe" />
+        <item itemvalue="Application.TimeDifference" />
+        <item itemvalue="Application.MaxProfit" />
+        <item itemvalue="Application.RunLengthEncode" />
+        <item itemvalue="Application.LfcMain" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668952171844</updated>
       <workItem from="1673260586698" duration="1412000" />
-      <workItem from="1673294320932" duration="39206000" />
+      <workItem from="1673294320932" duration="52908000" />
     </task>
     <servers />
   </component>

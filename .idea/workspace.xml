@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/file123.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.io.FileReader@39ba5a14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hacker_rank/Multiply10Times.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hacker_rank/PrintFormatJustify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hacker_rank/StdInStdOut1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hacker_rank/StdInStdout2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/loopyloops/LetterLoopInputToFormString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hacker_rank/DataTypeFIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hacker_rank/QueryPrintSeries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview_tests/coderbyte_sollers_consulting/RunLengthEncode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview_tests/coderbyte_sollers_consulting/RunLengthEncode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,27 +51,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "/Users/ashmacair/IdeaProjects/java_from_scratch/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ashmacair/IdeaProjects/java_from_scratch/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams" />
@@ -103,13 +96,13 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="LetterLoopInputToFormString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.loopyloops.LetterLoopInputToFormString" />
+  <component name="RunManager" selected="Application.DataTypeFIt">
+    <configuration name="DataTypeFIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hacker_rank.DataTypeFIt" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.loopyloops.*" />
+          <option name="PATTERN" value="org.example.hacker_rank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunLengthEncode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview_tests.coderbyte_sollers_consulting.RunLengthEncode" />
+    <configuration name="QueryPrintSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hacker_rank.QueryPrintSeries" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.interview_tests.coderbyte_sollers_consulting.*" />
+          <option name="PATTERN" value="org.example.hacker_rank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataTypeFIt" />
+        <item itemvalue="Application.QueryPrintSeries" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PrintFormatJustify" />
         <item itemvalue="Application.StdInStdOut1" />
-        <item itemvalue="Application.LetterLoopInputToFormString" />
-        <item itemvalue="Application.RunLengthEncode" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +181,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668952171844</updated>
       <workItem from="1673260586698" duration="1412000" />
-      <workItem from="1673294320932" duration="82826000" />
+      <workItem from="1673294320932" duration="87746000" />
+      <workItem from="1673981010640" duration="3343000" />
     </task>
     <servers />
   </component>

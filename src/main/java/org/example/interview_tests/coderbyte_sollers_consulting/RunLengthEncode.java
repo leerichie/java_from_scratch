@@ -3,29 +3,26 @@ package org.example.interview_tests.coderbyte_sollers_consulting;
 import java.util.Scanner;
 
 public class RunLengthEncode {
-
     public static String Rle (String input){
+
         StringBuilder sb = new StringBuilder();
         int count = 1;
-        char currentChar = input.charAt(0);
-        for (int i =0; i < input.length(); i++){
-            if (input.charAt(i) == currentChar){
+
+        for (int i = 0; i < input.length(); i++){
+            while (i < input.length() -1 && input.charAt(i) == input.charAt(i +1)) {
                 count++;
-            } else {
-                sb.append(count);
-                currentChar = input.charAt(i);
-                count = 1;
+                i++;
             }
+            sb.append(input.charAt(i));
+            sb.append(count);
         }
-        sb.append(currentChar);
-        sb.append(count);
-        return sb.toString();
+        return "Result: ".concat(sb.toString());
     }
 
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
         System.out.println("Enter a word to encode:");
-        System.out.println("result: " + Rle(s.nextLine()));
+        System.out.println(Rle(s.nextLine()));
     }
 }

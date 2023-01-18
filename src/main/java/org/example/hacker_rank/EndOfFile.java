@@ -1,27 +1,30 @@
 package org.example.hacker_rank;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class EndOfFile {
-    static File directory = new File("src/main/java/org/example/files_directory");
+    static File directory = new File("src/main/java/org/example/files_directory/");
+    static File[] files;
     static Scanner input = new Scanner(System.in);
     static int ch;
-    static boolean done = true;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         mainMenu();
     }
 
-    private static void mainMenu() {
+    private static void mainMenu() throws IOException {
 //        Scanner input = new Scanner(System.in);
 
         System.out.println("""
-                    * File Menu *\s
+                  * File Menu *\s
                  1. Create\s
                  2. Delete\s
-                 3. Update\s
+                 3. Rename\s
                  4. Show files\s
                  5. Find in file\s
 
@@ -33,13 +36,10 @@ public class EndOfFile {
                 createFile();
             } else if (ch == 2) {
                 deleteFile();
-//                System.out.println("TODO - delete");
             } else if (ch == 3) {
-//                updateFile();
-                System.out.println("TODO - edit");
+                updateFile();
             } else if (ch == 4) {
-//                showFiles();
-                System.out.println("TODO - show");
+                showFiles();
             } else if (ch == 5) {
 //                findInFile();
                 System.out.println("TODO - find in file");
@@ -52,24 +52,25 @@ public class EndOfFile {
         while (ch != 0);
     }
 
-    private static void returnToMenu() {
+    private static void returnToMenu() throws IOException {
 //        Scanner input = new Scanner(System.in);
         System.out.println("Press 0 to return to Main Menu");
-        int ch = input.nextInt();
-        if (ch == 0) {
-            mainMenu();
-        } else {
+        ch = input.nextInt();
+        if (ch != 0) {
             System.out.println("Invalid choice - try again!");
             returnToMenu();
         }
+        mainMenu();
     }
 
-    private static void createFile() {
+    private static void createFile() throws IOException {
 //        Scanner input = new Scanner(System.in);
         System.out.println("* Create File *\n" +
+                "Current Directory: " + "src/main/java/org/example/files_directory/" + "\n" +
                 "Enter file name and format:");
+        String createFileName = input.next();
         try {
-            directory = new File(input.next());
+            directory = new File("src/main/java/org/example/files_directory/", createFileName);
 
             if (directory.createNewFile()) {
                 System.out.println(directory.getPath() + " - successfully created!\n");
@@ -82,38 +83,88 @@ public class EndOfFile {
         returnToMenu();
     }
 
-    private static void deleteFile() {
+    private static void deleteFile() throws IOException {
         System.out.println(" * Delete * \n" +
-                "Files in Directory: " + directory);
-        File[] files = directory.listFiles();
+                "Files in Directory: " + "src/main/java/org/example/files_directory/");
+        files = directory.listFiles();
         int count = 1;
         assert files != null;
         for (File file : files) {
             System.out.println(count++ + ". " + file.getName());
         }
         System.out.println("\nEnter name of file to delete:");
-        String fileName = input.next();
+        String fileNameDelete = input.next();
         for (File file : files) {
-            if (file.getName().equals(fileName)) {
-                file.delete();
+            if (file.getName().equals(fileNameDelete)) {
+                System.out.println("Are you sure you want to delete the file (Y/N)?");
+                String confirm = input.next();
+                switch (confirm.toUpperCase()) {
+                    case "Y" -> {
+                        file.delete();
+                        System.out.println(fileNameDelete + " has been deleted.");
+                    }
+                    case "N" -> {
+                        try {
+                            TimeUnit.SECONDS.sleep(2);
+                        } catch (InterruptedException ie) {
+                            Thread.currentThread().interrupt();
+                        }
+                        System.out.println("Deletion Aborted.");
+                    }
+                    default -> System.out.println("Invalid choice");
+                }
             }
         }
-        mainMenu();
-
-//                System.out.println("Are you sure you want to delete the file (Y/N)?");
-//                String confirm = input.nextLine();
-//                if (!confirm.equals("Y")) {
-//                    System.out.println("Deletion Aborted.");
-//                    mainMenu(
-//                } else {
-//                    file.delete();
-//                    System.out.println(fileName + " has been deleted.");
-
-//                    try {
-//                        TimeUnit.SECONDS.sleep(5);
-//                        mainMenu();
-//                    } catch (InterruptedException ie) {
-//                        Thread.currentThread().interrupt();
-//                    }
+        returnToMenu();
+    }
+    private static void updateFile() throws IOException {
+        System.out.println(" * Update * \n" +
+                "Files in Directory: " + directory);
+        files = directory.listFiles();
+        int count = 1;
+        assert files != null;
+        for (File file : files) {
+            System.out.println(count++ + ". " + file.getName());
+        }
+        System.out.println("\nEnter name of file to rename:");
+        String existingFileName = input.next();
+        for (File file : files) {
+            if (file.getName().equals(existingFileName)) {
+                System.out.println("Enter new name:");
+                String newFileName = input.next();
+//                newFileName = existingFileName;
+                System.out.println("Are you sure you want to rename the file (Y/N)?\n" +
+                        "Current: " + existingFileName + "\n" +
+                        "New: " + newFileName);
+                String confirm = input.next();
+                switch (confirm.toUpperCase()) {
+                    case "Y" -> {
+                        file.renameTo(new File("src/main/java/org/example/files_directory/", newFileName));
+                        System.out.println(existingFileName + " has been renamed to " + newFileName + "\n");
+                    }
+                    case "N" -> {
+                        try {
+                            TimeUnit.SECONDS.sleep(2);
+                        } catch (InterruptedException ie) {
+                            Thread.currentThread().interrupt();
+                        }
+                        System.out.println("Rename Aborted.");
+                    }
+                    default -> System.out.println("Invalid choice");
+                }
+            }
+        }
+        returnToMenu();
+    }
+    private static void showFiles () throws IOException {
+        System.out.println(" * All Files * \n" +
+                "Files in Directory: " + directory);
+        files = directory.listFiles();
+        int count = 1;
+        assert files != null;
+        for (File file : files) {
+            System.out.println(count++ + ". " + file.getName());
+        }
+        returnToMenu();
     }
 }

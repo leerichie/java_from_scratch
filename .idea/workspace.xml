@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/1111.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/23445.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/dupa.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/fdinder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/kdjfdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/sssss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/wer.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/file123.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/EoF.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/abcdef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/exampleCopiedContents.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/fileWriter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/message.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hacker_rank/EndOfFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hacker_rank/EndOfFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +196,7 @@
       <workItem from="1673294320932" duration="87746000" />
       <workItem from="1673981010640" duration="5195000" />
       <workItem from="1674051165753" duration="14342000" />
-      <workItem from="1674071916734" duration="654000" />
+      <workItem from="1674071916734" duration="8896000" />
     </task>
     <servers />
   </component>

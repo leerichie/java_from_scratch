@@ -1,12 +1,7 @@
 package org.example.hacker_rank;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 public class EndOfFile {
     static File directory = new File("src/main/java/org/example/files_directory");
@@ -100,23 +95,25 @@ public class EndOfFile {
         String fileName = input.next();
         for (File file : files) {
             if (file.getName().equals(fileName)) {
-                System.out.println("Are you sure you want to delete the file (Y/N)?");
-                String confirm = input.nextLine();
-                if (!confirm.equals("Y")) {
-                    System.out.println("Deletion Aborted.");
-                    mainMenu();
-                } else {
-                    file.delete();
-                    System.out.println(fileName + " has been deleted.");
-
-                    try {
-                        TimeUnit.SECONDS.sleep(5);
-                        mainMenu();
-                    } catch (InterruptedException ie) {
-                        Thread.currentThread().interrupt();
-                    }
-                }
+                file.delete();
             }
         }
+        mainMenu();
+
+//                System.out.println("Are you sure you want to delete the file (Y/N)?");
+//                String confirm = input.nextLine();
+//                if (!confirm.equals("Y")) {
+//                    System.out.println("Deletion Aborted.");
+//                    mainMenu(
+//                } else {
+//                    file.delete();
+//                    System.out.println(fileName + " has been deleted.");
+
+//                    try {
+//                        TimeUnit.SECONDS.sleep(5);
+//                        mainMenu();
+//                    } catch (InterruptedException ie) {
+//                        Thread.currentThread().interrupt();
+//                    }
     }
 }

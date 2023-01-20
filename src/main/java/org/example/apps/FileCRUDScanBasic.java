@@ -1,12 +1,11 @@
-package org.example.hacker_rank;
+package org.example.apps;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-public class EndOfFile {
+public class FileCRUDScanBasic {
     static File directory = new File("src/main/java/org/example/files_directory/");
     static File[] files;
     static Scanner input = new Scanner(System.in);
@@ -18,29 +17,31 @@ public class EndOfFile {
     }
 
     private static void mainMenu() throws IOException {
-//        Scanner input = new Scanner(System.in);
-
         System.out.println("""
-                  * File Menu *\s
-                 1. Create\s
-                 2. Delete\s
-                 3. Rename\s
-                 4. Show files\s
-                 5. Find in file\s
+                 * File Menu *\s
+                1. Create\s
+                2. Delete\s
+                3. Rename\s
+                4. Show files\s
+                5. Find in file\s
 
-                 Choose an option or press 0 to exit
-                """);
+                Choose an option or press 0 to exit""");
         ch = input.nextInt();
         do {
             if (ch == 1) {
+                System.out.println();
                 createFile();
             } else if (ch == 2) {
+                System.out.println();
                 deleteFile();
             } else if (ch == 3) {
+                System.out.println();
                 updateFile();
             } else if (ch == 4) {
+                System.out.println();
                 showFiles();
             } else if (ch == 5) {
+                System.out.println();
 //                findInFile();
                 System.out.println("TODO - find in file");
             } else {
@@ -53,7 +54,6 @@ public class EndOfFile {
     }
 
     private static void returnToMenu() throws IOException {
-//        Scanner input = new Scanner(System.in);
         System.out.println("Press 0 to return to Main Menu");
         ch = input.nextInt();
         if (ch != 0) {
@@ -64,23 +64,31 @@ public class EndOfFile {
     }
 
     private static void createFile() throws IOException {
-//        Scanner input = new Scanner(System.in);
         System.out.println("* Create File *\n" +
                 "Current Directory: " + "src/main/java/org/example/files_directory/" + "\n" +
                 "Enter file name and format:");
         String createFileName = input.next();
         try {
             directory = new File("src/main/java/org/example/files_directory/", createFileName);
-
+            while (createFileName.length() < 4 || createFileName.length() > 10
+                    || !createFileName.contains(".") || createFileName.contains(" ")) {
+                System.out.println("-> 4-10 chars\n" + "-> NO spaces\n" + "-> file format (eg .txt)");
+                createFileName = input.next();
+            }
             if (directory.createNewFile()) {
                 System.out.println(directory.getPath() + " - successfully created!\n");
             } else {
                 System.out.println(directory.getPath() + " - file with that name already exists!!\n");
             }
-        } catch (Exception e) {
+
+
+        } catch (
+                Exception e) {
             System.out.println("An error occurred trying to create file");
         }
+
         returnToMenu();
+
     }
 
     private static void deleteFile() throws IOException {
@@ -117,6 +125,7 @@ public class EndOfFile {
         }
         returnToMenu();
     }
+
     private static void updateFile() throws IOException {
         System.out.println(" * Update * \n" +
                 "Files in Directory: " + directory);
@@ -156,7 +165,8 @@ public class EndOfFile {
         }
         returnToMenu();
     }
-    private static void showFiles () throws IOException {
+
+    private static void showFiles() throws IOException {
         System.out.println(" * All Files * \n" +
                 "Files in Directory: " + directory);
         files = directory.listFiles();

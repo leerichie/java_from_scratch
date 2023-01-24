@@ -1,7 +1,6 @@
 package org.example.apps;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
@@ -23,7 +22,7 @@ public class FileCRUDScanBasic {
                 2. Delete\s
                 3. Rename\s
                 4. Show files\s
-                5. Find in file\s
+                5. Read File\s
 
                 Choose an option or press 0 to exit""");
         ch = input.nextInt();
@@ -42,7 +41,7 @@ public class FileCRUDScanBasic {
                 showFiles();
             } else if (ch == 5) {
                 System.out.println();
-//                findInFile();
+                readFile();
                 System.out.println("TODO - find in file");
             } else {
                 System.out.println("Invalid choice - try again!");
@@ -175,6 +174,31 @@ public class FileCRUDScanBasic {
         for (File file : files) {
             System.out.println(count++ + ". " + file.getName());
         }
+        returnToMenu();
+    }
+
+    private static void readFile() throws IOException {
+        System.out.println(" * Read Files * \n" +
+                "Files in Directory: " + directory);
+        files = directory.listFiles();
+        int count = 1;
+        assert files != null;
+        for (File file : files) {
+            System.out.println(count++ + ". " + file.getName());
+        }
+
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("src/main/java/org/example/files_directory/DO_NOT_DELETE.txt"));
+            System.out.println("Choose file...");
+            String str;
+
+            while ((str = br.readLine()) != null) {
+                System.out.println("RESULTTTTT:::: " + str);
+            }
+        } catch (FileNotFoundException ex) {
+            System.out.println("Error!");
+        }
+
         returnToMenu();
     }
 }

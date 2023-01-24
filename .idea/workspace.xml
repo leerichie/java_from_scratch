@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/crud_scan_collection/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/crud_scan_collection/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/crud_scan_collection/UsersManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/dfsdf.rrt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/qw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/sd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/we" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/ws" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/wsw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/x" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/GameHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/Startup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/StartupBust.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/DO_NOT_DELETE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hacker_rank/EndOfFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/FileCRUDScanBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apps/FileCRUDScanBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/FileCRUDScanBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/1111.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/23445.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/RENAMED.tnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/dfsdf.rrt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/fdinder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/kdjfdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/qw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/sd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/sssss.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/we" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/ws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/wsw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/x" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,22 +119,9 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.org.example.apps.battleships.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.apps.crud_scan_collection.App" />
-      <module name="java_from_scratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.apps.crud_scan_collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataTypeFIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hacker_rank.DataTypeFIt" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="PracticeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PracticeClass" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
@@ -166,12 +159,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryPrintSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hacker_rank.QueryPrintSeries" />
+    <configuration name="StartupBust" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.apps.battleships.StartupBust" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.apps.crud_scan_collection.*" />
+          <option name="PATTERN" value="org.example.apps.battleships.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.apps.battleships.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.apps.battleships.App" />
+      <module name="java_from_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.apps.battleships.Startup" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.org.example.apps.battleships.App" />
+        <item itemvalue="Application.StartupBust" />
+        <item itemvalue="Application.PracticeClass" />
         <item itemvalue="Application.FileCRUDScanBasic" />
-        <item itemvalue="Application.DataTypeFIt" />
-        <item itemvalue="Application.QueryPrintSeries" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +207,7 @@
       <workItem from="1673294320932" duration="87746000" />
       <workItem from="1673981010640" duration="5195000" />
       <workItem from="1674051165753" duration="14342000" />
-      <workItem from="1674071916734" duration="26489000" />
+      <workItem from="1674071916734" duration="51242000" />
     </task>
     <servers />
   </component>

@@ -5,27 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/GameHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/Startup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/StartupBust.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/files_directory/DO_NOT_DELETE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/Greetings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/GreetingsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/MockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/testCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/testPerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apps/FileCRUDScanBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/FileCRUDScanBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/1111.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/23445.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/RENAMED.tnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/dfsdf.rrt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/fdinder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/kdjfdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/qw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/sd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/sssss.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/we" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/ws" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/wsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/files_directory/x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/person/PersonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/person/PersonApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +91,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/linkedIn_learning/functional_interface/functional_programming/streams" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/files_directory" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/files_directory" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
@@ -119,79 +109,92 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.apps.battleships.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.apps.crud_scan_collection.App" />
+  <component name="RunManager" selected="JUnit.MockTest.shouldReturnSth">
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.apps.crud_scan_collection.*" />
+          <option name="PATTERN" value="org.example.sda_materials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.sda_materials" />
+      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.FibonacciTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCRUDScanBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.apps.FileCRUDScanBasic" />
+    <configuration name="MockTest.shouldReturnMileage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.apps.crud_scan_collection.*" />
+          <option name="PATTERN" value="org.example.sda_materials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.sda_materials" />
+      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.MockTest" />
+      <option name="METHOD_NAME" value="shouldReturnMileage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PracticeClass" />
+    <configuration name="MockTest.shouldReturnSth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.sda_materials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.sda_materials" />
+      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.MockTest" />
+      <option name="METHOD_NAME" value="shouldReturnSth" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartupBust" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.apps.battleships.StartupBust" />
+    <configuration name="testPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.apps.battleships.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.testPerson" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.apps.battleships.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.apps.battleships.App" />
+    <configuration name="testPerson.shouldReturnName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.apps.battleships.Startup" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.testPerson" />
+      <option name="METHOD_NAME" value="shouldReturnName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.apps.battleships.App" />
-        <item itemvalue="Application.StartupBust" />
-        <item itemvalue="Application.PracticeClass" />
-        <item itemvalue="Application.FileCRUDScanBasic" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.MockTest.shouldReturnSth" />
+        <item itemvalue="JUnit.MockTest.shouldReturnMileage" />
+        <item itemvalue="JUnit.testPerson" />
+        <item itemvalue="JUnit.testPerson.shouldReturnName" />
+        <item itemvalue="JUnit.FibonacciTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,12 +210,23 @@
       <workItem from="1673294320932" duration="87746000" />
       <workItem from="1673981010640" duration="5195000" />
       <workItem from="1674051165753" duration="14342000" />
-      <workItem from="1674071916734" duration="51242000" />
+      <workItem from="1674071916734" duration="61750000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

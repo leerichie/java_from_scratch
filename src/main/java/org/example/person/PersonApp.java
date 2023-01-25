@@ -1,5 +1,9 @@
 package org.example.person;
 
+import org.junit.jupiter.api.Test;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+
 public class PersonApp {
 
     public static void main(String[] args) {

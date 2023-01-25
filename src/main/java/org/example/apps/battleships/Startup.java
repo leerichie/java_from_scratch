@@ -1,6 +1,11 @@
 package org.example.apps.battleships;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
+import java.util.Scanner;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Startup {
     private ArrayList<String> locationCells;

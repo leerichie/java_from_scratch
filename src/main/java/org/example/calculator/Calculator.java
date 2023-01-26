@@ -1,6 +1,16 @@
 package org.example.calculator;
 
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 public class Calculator {
+    @Test
+    void checkException(){
+        assertThrows(IllegalArgumentException.class, () ->
+                divide(10, 0), "divider can't be null");
+    }
+
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         int add = calculator.add(10, 10);

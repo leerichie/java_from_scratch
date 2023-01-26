@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/FibonacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/Greetings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/GreetingsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/MockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/testCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/testPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path_p_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/input_output/InAndOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/PowerMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/apps/battleships/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComplicatedExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ComplicatedExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/person/PersonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/person/PersonApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +109,9 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MockTest.shouldReturnSth">
-    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Collections">
+    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.Collections" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
@@ -118,14 +119,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.sda_materials" />
-      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.FibonacciTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockTest.shouldReturnMileage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InAndOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.input_output.InAndOut" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
@@ -133,31 +132,43 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.sda_materials" />
-      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.MockTest" />
-      <option name="METHOD_NAME" value="shouldReturnMileage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.checkException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_from_scratch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="checkException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockTest.shouldReturnSth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComplicatedExercise.checkPersonName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sda_materials.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.sda_materials" />
-      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.MockTest" />
-      <option name="METHOD_NAME" value="shouldReturnSth" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ComplicatedExercise" />
+      <option name="METHOD_NAME" value="checkPersonName(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PowerMockTest.TestStaticMethod_WithPowerMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
@@ -166,23 +177,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.testPerson" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testPerson.shouldReturnName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_from_scratch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.testPerson" />
-      <option name="METHOD_NAME" value="shouldReturnName" />
+      <option name="MAIN_CLASS_NAME" value="test.PowerMockTest" />
+      <option name="METHOD_NAME" value="TestStaticMethod_WithPowerMockito" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MockTest.shouldReturnSth" />
-        <item itemvalue="JUnit.MockTest.shouldReturnMileage" />
-        <item itemvalue="JUnit.testPerson" />
-        <item itemvalue="JUnit.testPerson.shouldReturnName" />
-        <item itemvalue="JUnit.FibonacciTest" />
+        <item itemvalue="Application.Collections" />
+        <item itemvalue="Application.InAndOut" />
+        <item itemvalue="JUnit.PowerMockTest.TestStaticMethod_WithPowerMockito" />
+        <item itemvalue="JUnit.ComplicatedExercise.checkPersonName" />
+        <item itemvalue="JUnit.CalculatorTest.checkException" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +206,7 @@
       <workItem from="1673294320932" duration="87746000" />
       <workItem from="1673981010640" duration="5195000" />
       <workItem from="1674051165753" duration="14342000" />
-      <workItem from="1674071916734" duration="61750000" />
+      <workItem from="1674071916734" duration="75104000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,11 @@
 package org.example;
 
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class PracticeClass {
+
     static class Output {
         void go(){
             int value = 7;

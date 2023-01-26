@@ -6,6 +6,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import static org.example.calculator.Calculator.divide;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
@@ -41,6 +42,12 @@ class CalculatorTest {
     @AfterEach
     void after(){
         System.out.println("Prints after test");
+    }
+
+    @Test
+    void checkException(){
+        assertThrows(ArithmeticException.class, () ->
+                divide(10, 1), "divider can't be null");
     }
 
 }

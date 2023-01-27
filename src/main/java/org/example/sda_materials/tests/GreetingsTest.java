@@ -1,5 +1,7 @@
-package org.example.sda_materials;
+package org.example.sda_materials.tests;
 
+import org.example.sda_materials.Greetings;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -12,6 +14,6 @@ public class GreetingsTest {
 
     @Test
     void whenCallingSayHello_thenReturnHello() {
-        assertEquals("Hello", Greetings.sayHello());
+        Assertions.assertEquals("Hello", Greetings.sayHello());
     }
 }

@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2104cb44-52f5-4f4a-9931-d1e906fd1a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Path_p_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/input_output/InAndOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/PowerMockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/ch1_dive_in/pg15/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/ch1_dive_in/pg15/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/OptionalExa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/generics/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/generics/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/synchronized_threads/Lottery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ComplicatedExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ComplicatedExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PracticeClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/ch1_dive_in/pg15/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/ch1_dive_in/pg15/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/ch1_dive_in/pg15/SharpenYourPencilExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/head_first_java_3rd/ch1_dive_in/pg15/SharpenYourPencilExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/Collections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/tests/FibonacciTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/GreetingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/tests/GreetingsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/MockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sda_materials/tests/MockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +112,13 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Collections">
-    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.Collections" />
+  <component name="RunManager" selected="Application.GenericMethod">
+    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.head_first_java_3rd.ch1_dive_in.pg15.Animal" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sda_materials.*" />
+          <option name="PATTERN" value="org.example.head_first_java_3rd.ch1_dive_in.pg15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InAndOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.input_output.InAndOut" />
+    <configuration name="GenericMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.generics.GenericMethod" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sda_materials.*" />
+          <option name="PATTERN" value="org.example.sda_materials.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,61 +139,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.checkException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.synchronized_threads.Lottery" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="PATTERN" value="org.example.sda_materials.synchronized_threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="checkException" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComplicatedExercise.checkPersonName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionalExa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.OptionalExa" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.sda_materials.synchronized_threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ComplicatedExercise" />
-      <option name="METHOD_NAME" value="checkPersonName(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerMockTest.TestStaticMethod_WithPowerMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sda_materials.generics.Printer" />
       <module name="java_from_scratch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="org.example.sda_materials.generics.Printer" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.PowerMockTest" />
-      <option name="METHOD_NAME" value="TestStaticMethod_WithPowerMockito" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Collections" />
-        <item itemvalue="Application.InAndOut" />
-        <item itemvalue="JUnit.PowerMockTest.TestStaticMethod_WithPowerMockito" />
-        <item itemvalue="JUnit.ComplicatedExercise.checkPersonName" />
-        <item itemvalue="JUnit.CalculatorTest.checkException" />
+        <item itemvalue="Application.GenericMethod" />
+        <item itemvalue="Application.Animal" />
+        <item itemvalue="Application.Printer" />
+        <item itemvalue="Application.Lottery" />
+        <item itemvalue="Application.OptionalExa" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +200,7 @@
       <workItem from="1673294320932" duration="87746000" />
       <workItem from="1673981010640" duration="5195000" />
       <workItem from="1674051165753" duration="14342000" />
-      <workItem from="1674071916734" duration="75104000" />
+      <workItem from="1674071916734" duration="87759000" />
     </task>
     <servers />
   </component>

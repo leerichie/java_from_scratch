@@ -3,7 +3,7 @@ package org.example.head_first_java_3rd.ch1_dive_in.pg15;
 public class SharpenYourPencilExercises {
     public static void main(String[] args) {
 
-        Dog myDog = new Dog(27, "Fido");
+        Dog myDog = new Dog("Fido", 27);
         System.out.println(myDog);
 
 //        int x=1;

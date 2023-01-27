@@ -1,18 +1,19 @@
 package org.example.head_first_java_3rd.ch1_dive_in.pg15;
 
-public class Dog extends Animal{
+
+public class Cat extends Animal{
     String breed;
     int size;
 
-    public Dog() {
+    public Cat() {
     }
 
-    public Dog(String name, int size){
-        this.breed = name;
+    public Cat(String breed, int size) {
+        this.breed = breed;
         this.size = size;
     }
-    public void woof(){
-        System.out.println("Woof");
+    public void meow(){
+        System.out.println("Meow");
     }
 
     public int getSize() {
@@ -33,7 +34,7 @@ public class Dog extends Animal{
 
     @Override
     public String toString() {
-        return "Dog{" +
+        return "Cat{" +
                 "breed='" + breed + '\'' +
                 ", size=" + size +
                 ", name='" + name + '\'' +

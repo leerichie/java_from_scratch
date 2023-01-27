@@ -1,4 +1,4 @@
-package org.example.sda_materials;
+package org.example.sda_materials.tests;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

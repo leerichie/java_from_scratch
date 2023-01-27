@@ -1,4 +1,4 @@
-package org.example.sda_materials;
+package org.example.sda_materials.tests;
 
 import org.example.calculator.Calculator;
 import org.example.car.Car;

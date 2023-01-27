@@ -21,6 +21,7 @@ public class Collections {
         public int getId() {
             return id;
         }
+
     }
 
     public static void main(String[] args) {
@@ -31,8 +32,10 @@ public class Collections {
                 new Prisoner(4, "Jenni", "Sharp"),
                 new Prisoner(5, "Jenni", "Sharp"),
                 new Prisoner(6, "Sharon", "Baron"),
-                new Prisoner(7, "Sharon", "Baron")
+                new Prisoner(7, "Sharon", "Baron"),
+                new Prisoner(8, " ", " ")
         );
+
 
         Collection<String> names = prisoners.stream()
                 .map(Prisoner::getName)
@@ -45,7 +48,8 @@ public class Collections {
         System.out.println(names);
         System.out.println(ids);
 
-        Set<String> namesSet = new HashSet<>();     // cant contain duplicates
+//        TreeSet<>() - natural order but SLOW than HashSet *** LinkedHashSet<>() - maintains order added and QUICK
+        Set<String> namesSet = new HashSet<>();     // NO duplicates.
         namesSet.add("Tommy");
         namesSet.add("Bob");
         namesSet.add("Chloe");

@@ -1,11 +1,11 @@
-#All my practice work covering everything Java:
+# All my practice work covering everything Java:
 
-##* Exercises and solutions from self-study
+## * Exercises and solutions from self-study
 
-##* Java course material tasks
+## * Java course material tasks
 
-##* Testing - JUnit and Mockito
+## * Testing - JUnit and Mockito
 
-##* LinkedIn learning work
+## * LinkedIn learning work
 
-##* Head First Java work
+## * Head First Java work
